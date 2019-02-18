@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		339754A8133AFEAD8E3CF997 /* libPods-UIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E8F000C6D267BCB9F647FC /* libPods-UIDemo.a */; };
+		EE166D041F9209FC006A74F5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EE166D031F9209FC006A74F5 /* Podfile */; };
+		EE166D0D1F94DF37006A74F5 /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE166D0C1F94DF37006A74F5 /* DiscoverTableViewCell.swift */; };
+		EE166D0F1F979BA4006A74F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE166D0E1F979BA4006A74F5 /* CoreLocation.framework */; };
+		EE166D111F98D725006A74F5 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE166D101F98D725006A74F5 /* DiscoverTableViewController.swift */; };
+		EE166D131F98E237006A74F5 /* DIscoverDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE166D121F98E237006A74F5 /* DIscoverDetailTableViewController.swift */; };
+		EE166D151F98E370006A74F5 /* DiscoverDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE166D141F98E370006A74F5 /* DiscoverDetailTableViewCell.swift */; };
+		EE1CB81D1F77BA2E004930A2 /* UIDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE1CB81B1F77BA2E004930A2 /* UIDemo.xcdatamodeld */; };
+		EE218A511F9B01CB00AE32C9 /* WatchImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE218A501F9B01CB00AE32C9 /* WatchImageViewController.swift */; };
+		EE5B77D61F8CB96900A61B06 /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B77D51F8CB96900A61B06 /* MoreTableViewController.swift */; };
+		EE5B77D81F8CE7C100A61B06 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B77D71F8CE7C100A61B06 /* WebViewController.swift */; };
+		EEA27C7A1F7411CD00A9111F /* JudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA27C791F7411CD00A9111F /* JudgeViewController.swift */; };
+		EEA27C7D1F76307C00A9111F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA27C7C1F76307C00A9111F /* MapKit.framework */; };
+		EEA27C7F1F7639F500A9111F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA27C7E1F7639F500A9111F /* MapViewController.swift */; };
+		EEC6608F1F7CE3F900CBF0C7 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC6608E1F7CE3F900CBF0C7 /* GuideViewController.swift */; };
+		EEC660911F7CE75F00CBF0C7 /* pageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC660901F7CE75E00CBF0C7 /* pageViewController.swift */; };
+		EEC8F9AE1F768A51008E4533 /* AddArtController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8F9AD1F768A51008E4533 /* AddArtController.swift */; };
 		EECA781B1F6E78E8000EB784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA781A1F6E78E8000EB784 /* AppDelegate.swift */; };
 		EECA781D1F6E78E8000EB784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA781C1F6E78E8000EB784 /* ViewController.swift */; };
 		EECA78201F6E78E8000EB784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECA781E1F6E78E8000EB784 /* Main.storyboard */; };
@@ -14,6 +31,10 @@
 		EECA78251F6E78E8000EB784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECA78231F6E78E8000EB784 /* LaunchScreen.storyboard */; };
 		EECA78301F6E78E8000EB784 /* UIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA782F1F6E78E8000EB784 /* UIDemoTests.swift */; };
 		EECA783B1F6E78E8000EB784 /* UIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA783A1F6E78E8000EB784 /* UIDemoUITests.swift */; };
+		EECA78491F6E7993000EB784 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA78481F6E7993000EB784 /* TableViewCell.swift */; };
+		EECA784D1F6E7B13000EB784 /* Arts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA784C1F6E7B13000EB784 /* Arts.swift */; };
+		EECA784F1F6F3873000EB784 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA784E1F6F3873000EB784 /* DetailViewController.swift */; };
+		EECA78511F714CF3000EB784 /* detailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA78501F714CF3000EB784 /* detailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37E8F000C6D267BCB9F647FC /* libPods-UIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C6AD0BB6D6C89285B45D4B /* Pods-UIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BACAD7ADBA5B4A687CFA2EB1 /* Pods-UIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EE166D031F9209FC006A74F5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EE166D051F92133E006A74F5 /* UIDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE166D0C1F94DF37006A74F5 /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
+		EE166D0E1F979BA4006A74F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EE166D101F98D725006A74F5 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		EE166D121F98E237006A74F5 /* DIscoverDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIscoverDetailTableViewController.swift; sourceTree = "<group>"; };
+		EE166D141F98E370006A74F5 /* DiscoverDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EE1CB81C1F77BA2E004930A2 /* UIDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIDemo.xcdatamodel; sourceTree = "<group>"; };
+		EE218A501F9B01CB00AE32C9 /* WatchImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchImageViewController.swift; sourceTree = "<group>"; };
+		EE5B77D51F8CB96900A61B06 /* MoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
+		EE5B77D71F8CE7C100A61B06 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		EEA27C791F7411CD00A9111F /* JudgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JudgeViewController.swift; sourceTree = "<group>"; };
+		EEA27C7C1F76307C00A9111F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EEA27C7E1F7639F500A9111F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EEC6608E1F7CE3F900CBF0C7 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		EEC660901F7CE75E00CBF0C7 /* pageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pageViewController.swift; sourceTree = "<group>"; };
+		EEC8F9AD1F768A51008E4533 /* AddArtController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddArtController.swift; sourceTree = "<group>"; };
 		EECA78171F6E78E8000EB784 /* UIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECA781A1F6E78E8000EB784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EECA781C1F6E78E8000EB784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +88,10 @@
 		EECA78361F6E78E8000EB784 /* UIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECA783A1F6E78E8000EB784 /* UIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDemoUITests.swift; sourceTree = "<group>"; };
 		EECA783C1F6E78E8000EB784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECA78481F6E7993000EB784 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EECA784C1F6E7B13000EB784 /* Arts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arts.swift; sourceTree = "<group>"; };
+		EECA784E1F6F3873000EB784 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EECA78501F714CF3000EB784 /* detailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE166D0F1F979BA4006A74F5 /* CoreLocation.framework in Frameworks */,
+				EEA27C7D1F76307C00A9111F /* MapKit.framework in Frameworks */,
+				339754A8133AFEAD8E3CF997 /* libPods-UIDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +122,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF3268D370AD06D2B2BA0ACA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BACAD7ADBA5B4A687CFA2EB1 /* Pods-UIDemo.debug.xcconfig */,
+				61C6AD0BB6D6C89285B45D4B /* Pods-UIDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEA27C7B1F76307C00A9111F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE166D0E1F979BA4006A74F5 /* CoreLocation.framework */,
+				EEA27C7C1F76307C00A9111F /* MapKit.framework */,
+				37E8F000C6D267BCB9F647FC /* libPods-UIDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EECA780E1F6E78E8000EB784 = {
 			isa = PBXGroup;
 			children = (
+				EE166D031F9209FC006A74F5 /* Podfile */,
 				EECA78191F6E78E8000EB784 /* UIDemo */,
 				EECA782E1F6E78E8000EB784 /* UIDemoTests */,
 				EECA78391F6E78E8000EB784 /* UIDemoUITests */,
 				EECA78181F6E78E8000EB784 /* Products */,
+				EEA27C7B1F76307C00A9111F /* Frameworks */,
+				AF3268D370AD06D2B2BA0ACA /* Pods */,
+				EE166D051F92133E006A74F5 /* UIDemo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +171,23 @@
 				EECA781A1F6E78E8000EB784 /* AppDelegate.swift */,
 				EECA781C1F6E78E8000EB784 /* ViewController.swift */,
 				EECA781E1F6E78E8000EB784 /* Main.storyboard */,
+				EE218A501F9B01CB00AE32C9 /* WatchImageViewController.swift */,
+				EE166D141F98E370006A74F5 /* DiscoverDetailTableViewCell.swift */,
+				EE166D121F98E237006A74F5 /* DIscoverDetailTableViewController.swift */,
+				EE166D101F98D725006A74F5 /* DiscoverTableViewController.swift */,
+				EE166D0C1F94DF37006A74F5 /* DiscoverTableViewCell.swift */,
+				EE5B77D71F8CE7C100A61B06 /* WebViewController.swift */,
+				EE5B77D51F8CB96900A61B06 /* MoreTableViewController.swift */,
+				EEC660901F7CE75E00CBF0C7 /* pageViewController.swift */,
+				EEC6608E1F7CE3F900CBF0C7 /* GuideViewController.swift */,
+				EE1CB81B1F77BA2E004930A2 /* UIDemo.xcdatamodeld */,
+				EEC8F9AD1F768A51008E4533 /* AddArtController.swift */,
+				EEA27C7E1F7639F500A9111F /* MapViewController.swift */,
+				EEA27C791F7411CD00A9111F /* JudgeViewController.swift */,
+				EECA784E1F6F3873000EB784 /* DetailViewController.swift */,
+				EECA78501F714CF3000EB784 /* detailTableViewCell.swift */,
+				EECA784C1F6E7B13000EB784 /* Arts.swift */,
+				EECA78481F6E7993000EB784 /* TableViewCell.swift */,
 				EECA78211F6E78E8000EB784 /* Assets.xcassets */,
 				EECA78231F6E78E8000EB784 /* LaunchScreen.storyboard */,
 				EECA78261F6E78E8000EB784 /* Info.plist */,
@@ -132,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EECA783F1F6E78E8000EB784 /* Build configuration list for PBXNativeTarget "UIDemo" */;
 			buildPhases = (
+				104459FA3735A12FBCF19A45 /* [CP] Check Pods Manifest.lock */,
 				EECA78131F6E78E8000EB784 /* Sources */,
 				EECA78141F6E78E8000EB784 /* Frameworks */,
 				EECA78151F6E78E8000EB784 /* Resources */,
+				4BB86EBB668E8A5EE1354B38 /* [CP] Embed Pods Frameworks */,
+				335FBEDE9569C81CDDFE50DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +284,14 @@
 				TargetAttributes = {
 					EECA78161F6E78E8000EB784 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6TJKYE5XV9;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EECA782A1F6E78E8000EB784 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -234,6 +332,7 @@
 			files = (
 				EECA78251F6E78E8000EB784 /* LaunchScreen.storyboard in Resources */,
 				EECA78221F6E78E8000EB784 /* Assets.xcassets in Resources */,
+				EE166D041F9209FC006A74F5 /* Podfile in Resources */,
 				EECA78201F6E78E8000EB784 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +353,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		104459FA3735A12FBCF19A45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		335FBEDE9569C81CDDFE50DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BB86EBB668E8A5EE1354B38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIDemo/Pods-UIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EECA78131F6E78E8000EB784 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECA78491F6E7993000EB784 /* TableViewCell.swift in Sources */,
 				EECA781D1F6E78E8000EB784 /* ViewController.swift in Sources */,
+				EE1CB81D1F77BA2E004930A2 /* UIDemo.xcdatamodeld in Sources */,
+				EECA78511F714CF3000EB784 /* detailTableViewCell.swift in Sources */,
+				EEA27C7A1F7411CD00A9111F /* JudgeViewController.swift in Sources */,
+				EE166D151F98E370006A74F5 /* DiscoverDetailTableViewCell.swift in Sources */,
+				EECA784F1F6F3873000EB784 /* DetailViewController.swift in Sources */,
+				EE166D111F98D725006A74F5 /* DiscoverTableViewController.swift in Sources */,
+				EEC6608F1F7CE3F900CBF0C7 /* GuideViewController.swift in Sources */,
+				EE166D131F98E237006A74F5 /* DIscoverDetailTableViewController.swift in Sources */,
+				EEC8F9AE1F768A51008E4533 /* AddArtController.swift in Sources */,
+				EE166D0D1F94DF37006A74F5 /* DiscoverTableViewCell.swift in Sources */,
 				EECA781B1F6E78E8000EB784 /* AppDelegate.swift in Sources */,
+				EECA784D1F6E7B13000EB784 /* Arts.swift in Sources */,
+				EE218A511F9B01CB00AE32C9 /* WatchImageViewController.swift in Sources */,
+				EEA27C7F1F7639F500A9111F /* MapViewController.swift in Sources */,
+				EE5B77D81F8CE7C100A61B06 /* WebViewController.swift in Sources */,
+				EE5B77D61F8CB96900A61B06 /* MoreTableViewController.swift in Sources */,
+				EEC660911F7CE75F00CBF0C7 /* pageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,24 +582,33 @@
 		};
 		EECA78401F6E78E8000EB784 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BACAD7ADBA5B4A687CFA2EB1 /* Pods-UIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6TJKYE5XV9;
 				INFOPLIST_FILE = UIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = muziruo.UIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UIDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		EECA78411F6E78E8000EB784 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C6AD0BB6D6C89285B45D4B /* Pods-UIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6TJKYE5XV9;
 				INFOPLIST_FILE = UIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = muziruo.UIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UIDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +686,7 @@
 				EECA78411F6E78E8000EB784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EECA78421F6E78E8000EB784 /* Build configuration list for PBXNativeTarget "UIDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +695,7 @@
 				EECA78441F6E78E8000EB784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EECA78451F6E78E8000EB784 /* Build configuration list for PBXNativeTarget "UIDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,8 +704,22 @@
 				EECA78471F6E78E8000EB784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE1CB81B1F77BA2E004930A2 /* UIDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE1CB81C1F77BA2E004930A2 /* UIDemo.xcdatamodel */,
+			);
+			currentVersion = EE1CB81C1F77BA2E004930A2 /* UIDemo.xcdatamodel */;
+			path = UIDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EECA780F1F6E78E8000EB784 /* Project object */;
 }
